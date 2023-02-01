@@ -1,0 +1,106 @@
+.categoryContentEucerin {
+    background-color: #A70532;
+}
+.categoryContentBioderma{
+    background-color:  #94dbdb ;
+}
+.categoryContentSesderma {
+    background-color: #B4BEC7;
+}
+.categoryContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    &__item {
+        width: 25%;
+        border-radius: 30px 30px 50% 50%;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 0px;
+        @media(max-width: 600px) {
+            width: 30%;
+        }
+        &__img {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 300px;
+                display: flex;
+                @media(max-width: 600px) {
+                    width: 100px;
+                }
+            }
+        }
+        &__title {
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300 !important;
+            color: #ffffff;
+            text-align: center;
+            font-weight: bold;
+            @media(max-width: 600px) {
+                font-size: 18px;
+            }
+        }
+    }
+}
+.productContent {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+        width: 25%;
+        text-align: center;
+        padding: 15px;
+        @media(max-width: 600px) {
+            width: 40%;
+        }
+        &__img {
+            width: 300px;
+            @media(max-width: 600px) {
+                width: 100%;
+            }
+        }
+        &__name {
+            h3 {
+                background-color: #dbbc77;
+                font-size: 20px;
+                color: #ffffff;
+                padding: 15px;
+                border-radius: 20px 20px 0px 0px;
+                @media(max-width: 600px) {
+                    font-size: 14px;
+                }
+            }
+        }
+        &__price {
+            background-color: #dbbc77;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400 !important;
+            padding: 10px;
+            @media(max-width: 600px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+.buttonBack {
+    background: linear-gradient(90deg,#875d2f 11%,#b98e37 34%,#eabe3f 79%);
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    @media(max-width: 600px) {
+        text-align: center;
+        font-size: 18px;
+    }
+}

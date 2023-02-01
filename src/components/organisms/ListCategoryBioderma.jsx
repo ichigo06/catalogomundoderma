@@ -14,6 +14,9 @@ export function ListCategoryBioderma() {
     }, [])
     return (
         <div>
+            <h1 className="text-center">
+                Bioderma
+            </h1>
             <div>
                 <ul className="categoryContent" id="bioderma" data-target="bioderma">
                     {category.map((item) => (

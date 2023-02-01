@@ -14,6 +14,9 @@ export function ListCategorySesderma() {
     }, [])
     return (
         <div>
+             <h1 className="text-center">
+                Sesderma
+            </h1>
             <div>
                 <ul className="categoryContent" id="sesderma" data-target="sesderma">
                     {category.map((item) => (

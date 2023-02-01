@@ -14,6 +14,9 @@ export function ListCategoryEucerin() {
     }, [])
     return (
         <div>
+             <h1 className="text-center">
+                Eucerin
+            </h1>
             <div>
                 <ul className="categoryContent" id="eucerin" data-target="eucerin">
                     {category.map((item) => (

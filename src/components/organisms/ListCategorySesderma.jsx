@@ -15,7 +15,7 @@ export function ListCategorySesderma() {
     return (
         <div>
             <div>
-                <ul className="categoryContent" data-target="sesderma">
+                <ul className="categoryContent" id="sesderma" data-target="sesderma">
                     {category.map((item) => (
                         <li key={item.id}  className="categoryContent__item categoryContentSesderma">
                             <Link to={`productos/${item.id}`} className="text-decoration-none">

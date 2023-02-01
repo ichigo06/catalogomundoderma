@@ -15,7 +15,7 @@ export function ListCategoryBioderma() {
     return (
         <div>
             <div>
-                <ul className="categoryContent" data-target="bioderma">
+                <ul className="categoryContent" id="bioderma" data-target="bioderma">
                     {category.map((item) => (
                         <li key={item.id}  className="categoryContent__item categoryContentBioderma">
                             <Link to={`productos/${item.id}`} className="text-decoration-none">

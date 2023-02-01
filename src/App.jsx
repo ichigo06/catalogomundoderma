@@ -32,9 +32,9 @@ export function App() {
         <div>
             <div>
                 <ul className="listCategory">
-                    <li className="listCategory__name"><a href="javascript:void(0)" data-target="eucerin" rel="noreferrer" className="text-decoration-none">Eucerin</a></li>
-                    <li className="listCategory__name"><a href="javascript:void(0)" data-target="sesderma" rel="noreferrer" className="text-decoration-none">Sesderma</a></li>
-                    <li className="listCategory__name"><a href="javascript:void(0)" data-target="bioderma" rel="noreferrer" className="text-decoration-none">Bioderma</a></li>
+                    <li className="listCategory__name"><a href="/#eucerin" data-target="eucerin" rel="noreferrer" className="text-decoration-none">Eucerin</a></li>
+                    <li className="listCategory__name"><a href="/#sesderma" data-target="sesderma" rel="noreferrer" className="text-decoration-none">Sesderma</a></li>
+                    <li className="listCategory__name"><a href="/#bioderma" data-target="bioderma" rel="noreferrer" className="text-decoration-none">Bioderma</a></li>
                 </ul>
             </div>
             <div className="container">
